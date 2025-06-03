@@ -15,7 +15,7 @@ const UserDetailPanel: FC<UserDetailPanelProps> = ({ user, onClose }) => {
       <div className={styles.header}>
         <h3>User Details</h3>
         <button className={styles.closeButton} onClick={onClose}>
-          ×
+          x
         </button>
       </div>
       <UserCard user={user} />

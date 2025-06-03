@@ -22,7 +22,7 @@ const UserModal: FC<UserModalProps> = ({ user, onClose }) => {
     <div className={styles.backdrop} onClick={handleBackdropClick}>
       <div className={styles.modal}>
         <button className={styles.closeButton} onClick={onClose}>
-          ×
+          x
         </button>
         <UserCard user={user} />
       </div>
