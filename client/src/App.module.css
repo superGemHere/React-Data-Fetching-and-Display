@@ -1,0 +1,88 @@
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.viewModeLabel {
+  font-weight: bold;
+  color: #666;
+}
+
+.modeButton {
+  padding: 0.5rem 1rem;
+  border: 2px solid #3498db;
+  background-color: white;
+  color: #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modeButton:hover {
+  background-color: #f8f9fa;
+}
+
+.modeButton.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.content.withSidebar {
+  align-items: flex-start;
+}
+
+.tableContainer {
+  flex: 1;
+  min-width: 0;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+}
+
+.error {
+  font-size: 1.2rem;
+  color: #d32f2f;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content.withSidebar {
+    flex-direction: column;
+  }
+}
