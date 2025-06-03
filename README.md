@@ -1,15 +1,15 @@
 # React-Data-Fetching-and-Display
 This is  a simple React Data Fetching and Display app.
 
-![Project Banner](screenshot.png)
+![Project Banner](screenshot1.png)
 ![Project Banner](screenshot2.png)
 
 ## Features
 
-- 📝 **Create**: The user is able to create a to-do item with text
-- 🔍 **Read**: User can see all the to-do's from the in-memory storage.
-- ❎ **Mark Completed/Active**: User can mark certain to-do item as completed or active.
-- 🧮 **Filter To-do's**: User can filter by their status.
+- 📝 **List of Users**: App lists userdata fetched from JSONPlaceholder
+- 🔍 **User Info**: App shows user info on each row.
+- ❎ **User Details**: On click of certain row the info about the user inside is shown as Modal card or as a card on the right side of table.
+- 🧮 **Choice of Displaying Details**: User is free to choose the way he sees the details.
 
 
 ## Technologies Used
@@ -17,10 +17,12 @@ This is  a simple React Data Fetching and Display app.
 - Vite
 - React
 - TypeScript + SWC
+- Axios
 
 ## Dependencies
 - react 
 - react-dom 
+- axios 
 
 ## Dev-Dependencies
 
@@ -44,7 +46,7 @@ This is  a simple React Data Fetching and Display app.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/superGemHere/Simple-React-To-Do-List-with-Filtering
+   git clone https://github.com/superGemHere/React-Data-Fetching-and-Display
    ```
 2. Navigate to client folder:
    ```bash
